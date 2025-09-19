@@ -9,7 +9,6 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
 - Interfaz de usuario similar a Spotify.
 - Reproducción de música.
 - Funcionalidades de búsqueda, playlists y perfiles de usuario.
-- Diseño adaptable a diferentes dispositivos (responsive design).
 
 ## Tecnologías utilizadas
 
@@ -27,9 +26,9 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
    `cd spotify-astro-clone`
 
 3. Instala las dependencias:
-   `bun install`
+   `npm install`
 
 4. Ejecuta el proyecto:
-   `bunx --bun astro dev`
+   `npm run dev`
 
-Visita `http://localhost:3000` en tu navegador para ver la aplicación en funcionamiento.
+Visita `http://localhost:4322/` en tu navegador para ver la aplicación en funcionamiento.
