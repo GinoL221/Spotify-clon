@@ -1,6 +1,6 @@
-import { type Song } from "@/lib/data";
-import { TimeIcon } from "@/icons/MusicsTableIcons";
-import { MusicsTablePlay } from "@/components/MusicsTablePlay";
+import { type Song } from "../lib/data";
+import { TimeIcon } from "../icons/MusicsTableIcons";
+import { MusicsTablePlay } from "../components/MusicsTablePlay";
 import { usePlayerStore } from "../store/playerStore";
 
 interface Props {

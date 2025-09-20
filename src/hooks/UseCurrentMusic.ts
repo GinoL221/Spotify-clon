@@ -1,5 +1,5 @@
-import type { CurrentMusic } from "@/store/playerStore.ts";
-import type { Song } from "@/lib/data.ts";
+import type { CurrentMusic } from "../store/playerStore.ts";
+import type { Song } from "../lib/data.ts";
 
 export function useCurrentMusic(currentMusic: CurrentMusic) {
   const getCurrentSongIndex = () => {

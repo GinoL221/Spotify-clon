@@ -1,10 +1,10 @@
-import { PlayerControlButtonBar } from "@/components/PlayerControlButtonBar";
-import { PlayerCurrentSong } from "@/components/PlayerCurrentSong";
-import { PlayerSoundControl } from "@/components/PlayerSoundControl";
-import { PlayerVolumeControl } from "@/components/PlayerVolumeControl";
-import { useCurrentMusic } from "@/hooks/UseCurrentMusic";
+import { PlayerControlButtonBar } from "../components/PlayerControlButtonBar";
+import { PlayerCurrentSong } from "../components/PlayerCurrentSong";
+import { PlayerSoundControl } from "../components/PlayerSoundControl";
+import { PlayerVolumeControl } from "../components/PlayerVolumeControl";
+import { useCurrentMusic } from "../hooks/UseCurrentMusic";
 import { useEffect, useRef } from "react";
-import { usePlayerStore } from "@/store/playerStore";
+import { usePlayerStore } from "../store/playerStore";
 
 export function Player() {
   const { currentMusic, isPlaying, volume, setCurrentMusic } = usePlayerStore(

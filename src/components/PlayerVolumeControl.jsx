@@ -1,7 +1,7 @@
-import { usePlayerStore } from "@/store/playerStore";
+import { usePlayerStore } from "../store/playerStore";
 import { useRef } from "react";
-import { Slider } from "@/components/Slider";
-import { PlayerVolumeIconComponent } from "@/components/PlayerVolumeIconComponent";
+import { Slider } from "../components/Slider";
+import { PlayerVolumeIconComponent } from "../components/PlayerVolumeIconComponent";
 
 export const PlayerVolumeControl = () => {
   const volume = usePlayerStore((state) => state.volume);

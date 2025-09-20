@@ -1,6 +1,6 @@
-import { Next, Pause, Play, Prev } from "@/icons/PlayerIcons";
-import { useCurrentMusic } from "@/hooks/UseCurrentMusic";
-import { usePlayerStore } from "@/store/playerStore";
+import { Next, Pause, Play, Prev } from "../icons/PlayerIcons";
+import { useCurrentMusic } from "../hooks/UseCurrentMusic";
+import { usePlayerStore } from "../store/playerStore";
 
 export function PlayerControlButtonBar() {
   const { currentMusic, isPlaying, setIsPlaying, setCurrentMusic } =
