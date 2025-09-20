@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { type Playlist, type Song } from "../lib/data.ts";
+import { type Playlist, type Song } from "../lib/data.ts.ts";
 
 export interface CurrentMusic {
   playlist: Playlist | null;

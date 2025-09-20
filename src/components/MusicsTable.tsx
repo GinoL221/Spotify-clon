@@ -1,4 +1,4 @@
-import { type Song } from "../lib/data";
+import { type Song } from "../lib/data.ts";
 import { TimeIcon } from "../icons/MusicsTableIcons";
 import { MusicsTablePlay } from "../components/MusicsTablePlay";
 import { usePlayerStore } from "../store/playerStore";

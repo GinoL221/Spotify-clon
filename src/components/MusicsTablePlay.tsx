@@ -1,4 +1,4 @@
-import { type Song } from "../lib/data";
+import { type Song } from "../lib/data.ts";
 import { Play, Pause } from "../icons/PlayerIcons";
 import { usePlayerStore, type CurrentMusic } from "../store/playerStore.ts";
 import { getPlayListInfoById } from "../services/ApiService";
