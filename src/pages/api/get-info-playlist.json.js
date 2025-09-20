@@ -1,5 +1,4 @@
-import { allPlaylists, songs as allSongs } from "../../lib/data.ts";dat/lib/data.ts
-
+import { allPlaylists, songs as allSongs } from "../../lib/data.ts";
 export async function GET({ params, request }) {
   const { url } = request;
   const urlObject = new URL(url);
