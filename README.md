@@ -8,7 +8,6 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
 
 - Interfaz de usuario similar a Spotify.
 - Reproducción de música.
-- Funcionalidades de búsqueda, playlists y perfiles de usuario.
 
 ## Tecnologías utilizadas
 
@@ -20,7 +19,7 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
 ## Instalación
 
 1. Clona este repositorio:
-   `git clone https://github.com/midudev/spotify-astro-clone.git`
+   `https://github.com/GinoL221/Spotify-clon`
 
 2. Navega a la carpeta del proyecto:
    `cd spotify-astro-clone`
@@ -31,4 +30,4 @@ Este repositorio contiene un clon del popular servicio de música Spotify constr
 4. Ejecuta el proyecto:
    `npm run dev`
 
-Visita `http://localhost:4322/` en tu navegador para ver la aplicación en funcionamiento.
+Visita `http://localhost:4321/` en tu navegador para ver la aplicación en funcionamiento.
